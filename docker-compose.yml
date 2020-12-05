@@ -11,7 +11,7 @@ services:
       - '3000:3000'
     volumes:
       - /app/node_modules
-      - .:/app
+      -  $PWD:/app
   tests:
     stdin_open: true
     build:
@@ -19,5 +19,5 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - /app/node_modules
-      - .:/app
+      -  $PWD:/app
     command: ['npm', 'run', 'test']
