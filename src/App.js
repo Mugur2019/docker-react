@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
  feature2
-        <p>new branch feature..:) changed a second time :) a third time :)4th time :) a and a 5th time<p>
+        <p>new branch feature..:) changed a second time :) a third time :)4th time :) a and a 5th time</p>
 
         <a
           className="App-link"
